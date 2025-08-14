@@ -7,11 +7,6 @@ Objetivo. Integrar análisis de riesgo, correlaciones, optimización de cartera,
 
 Este repositorio incluye una **síntesis conceptual** creada por el autor y usada como base del análisis. La versión extendida está en `TP FINANZAS FRANCO M 31875`.
 
-## ✍️ Declaración de originalidad y uso de IA
-
-
-> Entiendo que el TP **penaliza** el uso no declarado de IA. Por eso, **dejo explícito** lo anterior y mantengo el código/notebook **reproducible** para que cualquier evaluador verifique los resultados.
-
 ---
 
 ## 🧱 Estructura del repositorio
@@ -24,11 +19,12 @@ finanzas-trabajo-practico-utn-2025/
 ├── INFORME EJECUTIVO                     
 │
 ├── notebooks/
-│   ├── 01_obtencion_datos.ipynb
-│   ├── 02_analisis_cartera.ipynb
-│   ├── 03_analisis_tecnico.ipynb
-│   ├── 04_analisis_fundamental.ipynb
-│   └── 05_integracion_final.ipynb 
+    TP FINANZAS FRANCO M 31875
+│    ├── 01_Obtencion_datos.ipynb
+│    ├── 02_Analisis_cartera.ipynb
+│    ├── 03_Analisis_tecnico.ipynb
+│    ├── 04_Analisis_fundamental.ipynb
+│    └── 05_Conclusion_final.ipynb 
 
 ```
 
@@ -51,7 +47,6 @@ finanzas-trabajo-practico-utn-2025/
 
 ---
 
-## 📄 Licencia académica
 
 Este repo se publica **exclusivamente** con fines académicos. Se prohíbe su reutilización como entrega de terceros sin autorización explícita del autor y de la cátedra.
 
