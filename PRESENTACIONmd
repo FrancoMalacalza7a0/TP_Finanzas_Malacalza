@@ -19,9 +19,9 @@ Este repositorio incluye una **síntesis conceptual** creada por el autor y usad
 ```
 finanzas-trabajo-practico-utn-2025/
 │
-├── README.md                    
+├── PRESENTACION.md                    
 ├── TP FINANZAS FRANCO M 31875.txt               # DOCUMENTO
-├── RESUMEN EJECUTIVO                     
+├── INFORME EJECUTIVO                     
 │
 ├── notebooks/
 │   ├── 01_obtencion_datos.ipynb
