@@ -5,8 +5,8 @@ Objetivo. Integrar análisis de riesgo, correlaciones, optimización de cartera,
 
 ## 📚 Material teórico 
 
-Este repositorio incluye una **síntesis conceptual** creada por el autor y usada como base del análisis. La versión extendida está en `docs/metodologia.md`.
-A continuación, los puntos clave (resumen para el revisor):
+Este repositorio incluye una **síntesis conceptual** creada por el autor y usada como base del análisis. La versión extendida está en `TP FINANZAS FRANCO M 31875`.
+A continuación, los puntos clave:
 
 ### 1) Riesgo y retorno
 
@@ -47,8 +47,6 @@ A continuación, los puntos clave (resumen para el revisor):
 * **Terminal** (Gordon): $\text{TV} = \dfrac{FCF_{t+1}}{WACC-g_\infty}$.
 * **Sensibilidades**: WACC × $g_\infty$ × margen FCF (matrices de calor).
 
-> Toda la teoría anterior fue **redactada por el autor** y referenciada en cada celda del notebook donde se aplica. Las cifras y elecciones de parámetros se justifican en el propio notebook (ver secciones “Metodología”, “Hallazgos” y “DCF”).
-
 ---
 
 ## ✍️ Declaración de originalidad y uso de IA
@@ -71,46 +69,29 @@ A continuación, los puntos clave (resumen para el revisor):
 ```
 finanzas-trabajo-practico-utn-2025/
 │
-├── README.md                      # Este archivo (síntesis + cómo correr)
-├── CONSIGNAS.md                   # Consignas del TP (opcional)
-├── requirements.txt               # Dependencias exactas
-├── .gitignore                     # Ignora venv, checkpoints y outputs
+├── README.md                    
+├── TP FINANZAS FRANCO M 31875.txt               # DOCUMENTO
+├── RESUMEN EJECUTIVO                     
 │
 ├── notebooks/
 │   ├── 01_obtencion_datos.ipynb
 │   ├── 02_analisis_cartera.ipynb
 │   ├── 03_analisis_tecnico.ipynb
 │   ├── 04_analisis_fundamental.ipynb
-│   └── 05_integracion_final.ipynb  # Notebook “corré todo”
-│
-├── src/                           # Utilidades (módulos Python)
-│   ├── __init__.py
-│   ├── data_utils.py
-│   ├── portfolio_utils.py
-│   ├── technical_analysis.py
-│   └── fundamental_analysis.py
-│
-├── data/                          # CSVs generados (agregado al .gitignore)
-├── outputs/                       # Figuras y tablas para el informe
-│
-└── docs/
-    ├── metodologia.md             # Material teórico ampliado y reproducibilidad
-    └── recursos.md                # Notas, links y bibliografía
+│   └── 05_integracion_final.ipynb 
+
 ```
 
 ---
 
-## ⚙️ Reproducibilidad (cómo correr)
+## ⚙️ Reproducibilidad (
 
-1. **Clonar** el repo y entrar a la carpeta.
-2. (Opcional) Crear y activar **venv**.
-3. `pip install -r requirements.txt`
-4. Abrir `notebooks/05_integracion_final.ipynb` → **Restart & Run All**.
-5. Las figuras/tablas se guardan en `outputs/` y se referencian en el informe.
+1. Abrir archivo en Colab
+2. Ejecutar el codigo
 
 ---
 
-## 🧭 Criterio personal (qué se evalúa aquí)
+## 🧭 Criterio personal
 
 * **Elección de comparables**: sector, mercado, tamaño y relevancia para un inversor local.
 * **Supuestos del DCF**: márgenes y crecimiento consistentes con históricos/industria; WACC desagregado.
@@ -125,5 +106,3 @@ finanzas-trabajo-practico-utn-2025/
 Este repo se publica **exclusivamente** con fines académicos. Se prohíbe su reutilización como entrega de terceros sin autorización explícita del autor y de la cátedra.
 
 ---
-
-> Si sos revisor: todo el pipeline es **determinístico** (seed fijada) y los notebooks corren de punta a punta sin intervención manual. Cualquier inconsistencia o duda puede trazarse a las celdas de “Metodología” y a los módulos en `src/`.
